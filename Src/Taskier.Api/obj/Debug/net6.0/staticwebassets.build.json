@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "n39Vd+sHjEAEPp0gm8H71AdoW602MoX875g1mIPwPs0=",
+  "Source": "Taskier.Api",
+  "BasePath": "_content/Taskier.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

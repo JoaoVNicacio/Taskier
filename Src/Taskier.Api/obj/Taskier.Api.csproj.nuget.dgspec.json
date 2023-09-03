@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Api/Taskier.Api.csproj": {}
+  },
+  "projects": {
+    "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Api/Taskier.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Api/Taskier.Api.csproj",
+        "projectName": "Taskier.Api",
+        "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Api/Taskier.Api.csproj",
+        "packagesPath": "/home/nicacio_jp/.nuget/packages/",
+        "outputPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicacio_jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/Taskier.Application.csproj": {
+                "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/Taskier.Application.csproj"
+              },
+              "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/Taskier.Domain.csproj": {
+                "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/Taskier.Domain.csproj"
+              },
+              "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/Taskier.Infra.csproj": {
+                "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/Taskier.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/217/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/Taskier.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/Taskier.Application.csproj",
+        "projectName": "Taskier.Application",
+        "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/Taskier.Application.csproj",
+        "packagesPath": "/home/nicacio_jp/.nuget/packages/",
+        "outputPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicacio_jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/217/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/Taskier.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/Taskier.Domain.csproj",
+        "projectName": "Taskier.Domain",
+        "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/Taskier.Domain.csproj",
+        "packagesPath": "/home/nicacio_jp/.nuget/packages/",
+        "outputPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicacio_jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/217/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/Taskier.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/Taskier.Infra.csproj",
+        "projectName": "Taskier.Infra",
+        "projectPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/Taskier.Infra.csproj",
+        "packagesPath": "/home/nicacio_jp/.nuget/packages/",
+        "outputPath": "/home/nicacio_jp/Desktop/C# Projects/Taskier/Src/Taskier.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicacio_jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/217/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
